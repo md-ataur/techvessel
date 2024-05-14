@@ -1,0 +1,41 @@
+.gray-color {
+    color: #959595;
+}
+
+.process-item {
+    position: relative;
+    border: 1px solid #890afd;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;    
+}
+
+.process-item p {
+    line-height: 26px;
+}
+
+.pricing-item {
+    border: 1px solid #890afd;
+    border-radius: 20px;
+}
+
+.pricing-item .price:after {
+    display: none;
+}
+
+.recom-tag {
+    padding: 5px 20px;
+    background: #890afd;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    top: -25px;
+    left: 26px;
+    font-weight: 600;
+}
+
+.media-hero h5 {
+    margin: 0 0 30px;
+}
