@@ -55,7 +55,7 @@
 }
 
 body {
-	color: #A9ADB9;
+	color: #c1c6d8;
 	background: #010101;
 	font-weight: 400;
 	line-height: 32px;
@@ -72,7 +72,7 @@ body {
 }
 
 a {
-	color: #A9ADB9;
+	color: #c1c6d8;
 	cursor: pointer;
 	outline: none;
 	-webkit-transition: 0.5s;
@@ -4505,7 +4505,7 @@ h6,
 
 @keyframes color-change {
 	0% { color: #890afd; }
-	50% { color: #A9ADB9; }
+	50% { color: #c1c6d8; }
 	100% { color: #890afd; }
 }
 
@@ -4693,7 +4693,7 @@ h6,
 	display: block;
 	opacity: 1;
 	font-size: 16px;
-	color: #A9ADB9;
+	color: #c1c6d8;
 	font-weight: 600;
 	position: relative;
 	font-family: var(--heading-font);
@@ -4704,7 +4704,7 @@ h6,
 
 .main-menu .navbar-collapse li button {
     background: none;
-    color: #A9ADB9;
+    color: #c1c6d8;
 	font-size: 16px;
 	font-weight: 600;
 	transition: all 500ms ease;
@@ -6606,7 +6606,7 @@ h6,
 }
 
 .about-two-content .service-item .content p {
-	color: #A9ADB9;
+	color: #c1c6d8;
 }
 
 .about-two-content .service-item .details-btn {
@@ -7188,7 +7188,7 @@ h6,
 }
 
 #portfolio-flters .btn {
-	color: #A9ADB9;
+	color: #c1c6d8;
 	font-size: 18px;
     position: relative;
     display: inline-block;
@@ -8558,7 +8558,7 @@ h6,
 }
 
 .author-speech {
-	color: #A9ADB9;
+	color: #c1c6d8;
 	font-size: 22px;
 	font-weight: 500;
 	line-height: 1.96;
@@ -12068,7 +12068,7 @@ h6.footer-title {
 
 .footer-menu li button {
     background: none;
-    color: #A9ADB9;
+    color: #c1c6d8;
 }
 
 .footer-text {
