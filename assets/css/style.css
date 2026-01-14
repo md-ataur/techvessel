@@ -23,6 +23,7 @@
     ## Headline Text
     ## Client Logos
     ## About Area
+	## Ebook Area
     ## Counter Area
     ## Protfolio Area
     ## Services style
@@ -45,6 +46,9 @@
 /*******************************************************/
 /******************* ## Default Style ******************/
 /*******************************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100..900&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -277,8 +281,8 @@ input[type=radio] {
 @media only screen and (min-width: 1200px) {
 	.container {
 		max-width: 1270px;
-		padding-left: 15px;
-		padding-right: 15px;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 
 	.container.container-1695 {
@@ -637,7 +641,7 @@ a.theme-btn.style-two:hover {
 
 	.theme-btn,
 	a.theme-btn {
-		padding: 10px 30px;
+		padding: 15px 20px;
 	}
 }
 
@@ -4593,7 +4597,7 @@ h6,
 
 @media only screen and (max-width: 575px) {
 	.main-menu .mobile-logo {
-		max-width: 150px;
+		max-width: 200px;
 	}
 }
 
@@ -6349,6 +6353,77 @@ h6,
 }
 
 /*******************************************************/
+/******************* ## Ebook Area ********************/
+/*******************************************************/
+
+.ebook-page h1, h2, h3 {
+	font-family: "Noto Sans Bengali", sans-serif;
+	font-weight: 600;
+}
+
+.ebook-content-part h2 {
+    font-size: 65px;
+    line-height: 1.1;
+}
+
+.ebook-text p {
+	font-family: "Noto Sans Bengali", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.ebook-writer-image img {
+    border-radius: 25px;
+}
+
+.payment-logo img {
+    width: 50px;
+    border-radius: 5px;
+}
+
+.payment-number p {
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+.bank-payment img {
+    width: 60px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.bank-payment p {
+    margin: 0 0 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.how-to-pay {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.how-to-pay p {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Noto Sans Bengali';
+    color: #9447ff;
+    margin: 0 0 50px;
+}
+
+@media only screen and (max-width: 767px) {
+	.ebook-content-part h2 {
+		font-size: 38px;
+		line-height: 1.1;
+	}
+}
+
+
+/*******************************************************/
 /******************* ## About Area ********************/
 /*******************************************************/
 @media only screen and (min-width: 1400px) {
@@ -6364,6 +6439,9 @@ h6,
 @media only screen and (min-width: 992px) {
 	.about-content .section-title h2 {
 		font-size: 50px;
+	}
+	.ebook-text-area {
+		padding: 0 0 0 45px;
 	}
 }
 
@@ -6443,7 +6521,7 @@ h6,
 	.skillbar-content .section-title h2 {
 		font-size: 40px;
 		line-height: 1.7;
-	}
+	}	
 }
 
 /* About Two */
@@ -6483,6 +6561,10 @@ h6,
 @media only screen and (max-width: 575px) {
 	.about-two-images .video-play-text {
 		top: 25%;
+	}
+
+	.ebook .ebook-content-part h2 {
+		font-size: 32px;
 	}
 }
 
@@ -12102,5 +12184,28 @@ h6.footer-title {
 }
 
 .footer-social .social-style-one a:not(:hover) {
-	color: var(--base-color);
+	color: #ffffff;
+}
+
+.footer-left-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left-logo img {
+    width: 45px;
+}
+
+.footer-left-logo p {
+    margin: 0;
+    padding: 0 0 0 10px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.chaty-i-trigger {
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
 }
