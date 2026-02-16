@@ -24,6 +24,7 @@
     ## Client Logos
     ## About Area
 	## Ebook Area
+	## YouTube Leads
     ## Counter Area
     ## Protfolio Area
     ## Services style
@@ -49,6 +50,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -65,7 +69,7 @@ body {
 	line-height: 28px;
 	font-size: 16px;
 	font-family: var(--base-font);
-	--base-font: 'Plus Jakarta Sans', sans-serif;
+	--base-font: "Poppins", sans-serif;
 	--heading-font: 'Plus Jakarta Sans', sans-serif;
 	--script-font: 'Playfair Display', serif;
 	--primary-color: #890afd;
@@ -1274,7 +1278,7 @@ a.theme-btn.style-two:hover {
 /* Home One */
 @media only screen and (min-width: 1200px) {
 	.home-one h2 {
-		font-size: 60px;
+		font-size: 58px;
 		line-height: 1.15;
 	}
 }
@@ -4514,23 +4518,24 @@ h6,
 }
 
 .main-header {
-	position: relative;
+	position: fixed;
 	left: 0px;
 	top: 0px;
 	z-index: 999;
 	width: 100%;
-	-webkit-transition: all 500ms ease;
+	/* -webkit-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
-	transition: all 500ms ease;
+	transition: all 500ms ease; */
+	background: #000;
 }
 
 .main-header .header-upper {
 	z-index: 5;
 	width: 100%;
 	position: relative;
-	-webkit-transition: all 500ms ease;
+	/* -webkit-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
-	transition: all 500ms ease;
+	transition: all 500ms ease; */
 	border-bottom: 1px solid var(--border-color);
 }
 
@@ -4647,7 +4652,7 @@ h6,
 }
 
 .main-menu .navbar-collapse li {
-	padding: 33px;
+	padding: 26px 30px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -5351,9 +5356,6 @@ h6,
 	}
 }
 
-.hero-content-part {
-	margin-top: -50px;
-}
 
 .hero-content-part h1 {
 	font-size: 170px;
@@ -6352,100 +6354,6 @@ h6,
 	margin-right: -15px;
 }
 
-/*******************************************************/
-/******************* ## Ebook Area ********************/
-/*******************************************************/
-
-.ebook-page h1, h2, h3 {
-	font-family: "Noto Sans Bengali", sans-serif;
-	font-weight: 600;
-}
-
-.ebook-content-part h2 {
-    font-size: 65px;
-    line-height: 1.1;
-}
-
-.ebook-text p {
-	font-family: "Noto Sans Bengali", sans-serif;
-    font-size: 20px;
-    line-height: 30px;
-}
-
-.ebook-writer-image img {
-    border-radius: 25px;
-}
-
-.payment-logo img {
-    width: 45px;
-    border-radius: 5px;
-}
-
-.book-price-area {
-    max-width: 230px;
-    text-align: center;
-}
-
-.book-price-area p {
-    font-size: 25px;
-    font-weight: 600;
-    margin: 12px 0 0;
-}
-
-.payment-number p {
-    font-size: 24px;
-    letter-spacing: 2px;
-    font-weight: 600;
-    margin: 0;
-    padding: 0 0 0 16px;
-}
-
-.bank-payment img {
-    width: 60px;
-    border-radius: 10px;
-    margin: 0 auto;
-}
-
-.bank-payment p {
-    margin: 0 0 10px;
-    font-size: 20px;
-    letter-spacing: 1px;
-	font-weight: 600;
-}
-
-.how-to-pay {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.how-to-pay p {
-    text-align: center;
-    font-size: 22px;
-    font-family: 'Noto Sans Bengali';
-    color: #9447ff;
-    margin: 0 0 50px;
-}
-
-.insp-text {
-    font-family: 'Noto Sans Bengali';
-    font-size: 20px;
-    max-width: 730px;
-    margin: 0 auto;
-}
-
-.insp-text p {
-    margin: 0;
-    color: #03a25c;
-    font-weight: 500;
-}
-
-@media only screen and (max-width: 767px) {
-	.ebook-content-part h2 {
-		font-size: 38px;
-		line-height: 1.1;
-	}
-}
-
 
 /*******************************************************/
 /******************* ## About Area ********************/
@@ -6469,9 +6377,6 @@ h6,
 	}
 }
 
-.about-agency-content p {
-	color: #A9ACB9;
-}
 
 .about-agency-content h5 {
 	font-size: 20px;
@@ -7070,6 +6975,150 @@ h6,
 @media only screen and (max-width: 767px) {
 	.our-experience-years .text {
 		font-size: 8vw;
+	}
+}
+
+/*******************************************************/
+/******************* ## Ebook Area ********************/
+/*******************************************************/
+
+.ebook-page h1, h2, h3 {
+	font-family: "Noto Sans Bengali", sans-serif;
+	font-weight: 600;
+}
+
+.ebook-content-part h2 {
+    font-size: 65px;
+    line-height: 1.1;
+}
+
+.ebook-text p {
+	font-family: "Noto Sans Bengali", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.ebook-writer-image img {
+    border-radius: 25px;
+}
+
+.payment-logo img {
+    width: 45px;
+    border-radius: 5px;
+}
+
+.book-price-area {
+    max-width: 230px;
+    text-align: center;
+}
+
+.book-price-area p {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 12px 0 0;
+}
+
+.payment-number p {
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0 0 0 16px;
+}
+
+.bank-payment img {
+    width: 60px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.bank-payment p {
+    margin: 0 0 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.how-to-pay {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.how-to-pay p {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Noto Sans Bengali';
+    color: #9447ff;
+    margin: 0 0 50px;
+}
+
+.insp-text {
+    font-family: 'Noto Sans Bengali';
+    font-size: 20px;
+    max-width: 730px;
+    margin: 0 auto;
+}
+
+.insp-text p {
+    margin: 0;
+    color: #03a25c;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 767px) {
+	.ebook-content-part h2 {
+		font-size: 38px;
+		line-height: 1.1;
+	}
+}
+
+/*******************************************************/
+/******************* ## YouTube Leads ********************/
+/*******************************************************/
+.top-heading {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top-heading h3 {
+    line-height: 55px;
+}
+
+.yt-leads-content p {
+    font-size: 18px;
+}
+
+.yt-leads-content ul {
+    border-left: 2px solid #7800ff;
+    padding: 0 0 0 20px;
+}
+
+.yt-leads-content ul li {
+	padding: 0 0 10px 0;
+	font-size: 16px;
+	list-style: disc inside;
+}
+
+.content-lp {
+    padding-left: 30px;
+}
+
+.content-rp {
+    padding-right: 30px;
+}
+
+.analytics-area img {
+    border-radius: 25px;
+}
+
+@media only screen and (max-width: 991px) {
+	.content-lp {
+		padding-left: 0px;
+	}
+	
+	.content-rp {
+		padding-right: 0px;
 	}
 }
 
@@ -7802,7 +7851,7 @@ h6,
 /*******************************************************/
 .service-item {
 	margin-bottom: 65px;
-	padding: 0 15px 20px;
+	padding: 0 0px 20px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -7816,7 +7865,7 @@ h6,
 }
 
 .service-item .content h5 {
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 @media only screen and (max-width: 375px) {
@@ -8937,7 +8986,7 @@ h6,
 /*******************************************************/
 .lets-talk-text {
 	color: white;
-	font-size: 170px;
+	font-size: 120px;
 	font-weight: 700;
 	display: inline-block;
 	text-transform: capitalize;
