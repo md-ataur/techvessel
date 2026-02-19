@@ -7003,7 +7003,7 @@ h6,
 }
 
 .payment-logo img {
-    width: 45px;
+    width: 40px;
     border-radius: 5px;
 }
 
@@ -7019,8 +7019,8 @@ h6,
 }
 
 .payment-number p {
-    font-size: 24px;
-    letter-spacing: 2px;
+    font-size: 22px;
+    letter-spacing: 1px;
     font-weight: 600;
     margin: 0;
     padding: 0 0 0 16px;
@@ -7035,8 +7035,7 @@ h6,
 .bank-payment p {
     margin: 0 0 10px;
     font-size: 20px;
-    letter-spacing: 1px;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .how-to-pay {
@@ -7065,10 +7064,32 @@ h6,
     font-weight: 500;
 }
 
+@media only screen and (max-width: 991px) {
+	.about-hero-image {
+		display: none;
+	}	
+}
+
 @media only screen and (max-width: 767px) {
 	.ebook-content-part h2 {
-		font-size: 38px;
+		font-size: 35px;
 		line-height: 1.1;
+	}
+	
+	.ebook-reader-area h3 {
+		font-size: 35px;
+	}
+	
+	.how-to-buy h3 {
+		font-size: 35px;
+	}
+
+	.ebook-wirter-area {
+		display: none;
+	}
+
+	.how-to-pay p {
+		margin: 0 0 30px;
 	}
 }
 
