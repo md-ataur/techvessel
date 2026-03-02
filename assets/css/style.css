@@ -25,6 +25,7 @@
     ## About Area
 	## Ebook Area
 	## YouTube Leads
+	## Media Page
     ## Counter Area
     ## Protfolio Area
     ## Services style
@@ -70,7 +71,7 @@ body {
 	font-size: 16px;
 	font-family: var(--base-font);
 	--base-font: "Poppins", sans-serif;
-	--heading-font: 'Plus Jakarta Sans', sans-serif;
+	--heading-font: "Poppins", sans-serif;
 	--script-font: 'Playfair Display', serif;
 	--primary-color: #890afd;
 	--heading-color: #FFFFFF;
@@ -1278,7 +1279,7 @@ a.theme-btn.style-two:hover {
 /* Home One */
 @media only screen and (min-width: 1200px) {
 	.home-one h2 {
-		font-size: 58px;
+		font-size: 56px;
 		line-height: 1.15;
 	}
 }
@@ -6982,7 +6983,12 @@ h6,
 /******************* ## Ebook Area ********************/
 /*******************************************************/
 
-.ebook-page h1, h2, h3 {
+.ebook-page h2 {
+	font-family: "Noto Sans Bengali", sans-serif;
+	font-weight: 500;
+}
+
+.ebook-page h3 {
 	font-family: "Noto Sans Bengali", sans-serif;
 	font-weight: 600;
 }
@@ -7096,14 +7102,15 @@ h6,
 /*******************************************************/
 /******************* ## YouTube Leads ********************/
 /*******************************************************/
-.top-heading {
+.yt-leads-heading {
     max-width: 900px;
     margin: 0 auto;
     text-align: center;
 }
 
-.top-heading h3 {
+.yt-leads-heading h3 {
     line-height: 55px;
+	font-weight: 600;
 }
 
 .yt-leads-content p {
@@ -7117,7 +7124,7 @@ h6,
 
 .yt-leads-content ul li {
 	padding: 0 0 10px 0;
-	font-size: 16px;
+	font-size: 17px;
 	list-style: disc inside;
 }
 
@@ -7132,17 +7139,23 @@ h6,
 .analytics-area img {
     border-radius: 25px;
 }
+
 .who-is-area {
 	border: 1px solid #890afd;
     border-radius: 20px;
 	padding: 30px;
 }
 
+.deliverable ul li {
+    list-style: disc inside;
+}
+
 .client-roadmap {
 	border: 1px solid #890afd;
     border-radius: 20px;
 	padding: 30px;
-	min-height: 620px;
+	font-size: 18px;
+	border-bottom: 8px inset #890afd;
 }
 
 .cta-text {
@@ -7160,7 +7173,12 @@ h6,
     line-height: 35px;
 }
 
-
+.commitment-tag {
+	border: 1px solid #ffffff;
+    padding: 8px 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+}
 
 @media only screen and (max-width: 991px) {
 	.content-lp {
@@ -7176,6 +7194,57 @@ h6,
 	}
 }
 
+@media only screen and (max-width: 768px) {
+	.who-is-area h3 {
+		font-size: 30px;
+	}
+
+	.yt-leads-heading h3 {		
+		font-size: 35px;
+		line-height: 45px;
+	}
+	
+	.yt-leads-heading h2 {		
+		font-size: 35px;		
+	}
+}
+
+
+/*******************************************************/
+/******************* ## Media Page ********************/
+/*******************************************************/
+.gray-color {
+    color: #959595;
+}
+
+.process-item {
+    position: relative;
+    border: 1px solid #890afd;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;    
+}
+
+.process-item p {
+    line-height: 26px;
+}
+
+.recom-tag {
+    padding: 5px 20px;
+    background: #890afd;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    top: -25px;
+    left: 26px;
+    font-weight: 600;
+}
+
+.media-hero h5 {
+    margin: 0 0 30px;
+}
 
 
 /*******************************************************/
@@ -11148,8 +11217,14 @@ blockquote .blockquote-footer:before {
 	padding: 40px 30px;
 	background: black;
 	margin-bottom: 30px;
-	border: 1px solid #090909;
+	border: 1px solid #890afd;
+    border-radius: 20px;
 }
+
+.pricing-item .price:after {
+    display: none;
+}
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.pricing-item {
